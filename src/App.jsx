@@ -20,6 +20,10 @@ function App() {
         <button onClick={cambiarFondoAleatorio}>Cual es mi fortuna</button>
       </div>
       <Fondos fondoIndex={index} cambiarFondoAleatorio={cambiarFondoAleatorio} />
+      <p class="author">
+      🦊 Hecho por
+        <a href="https://github.com/JAEB720" target='_blank'> JAEB720</a>
+      </p>
     </div>
   );
 }
