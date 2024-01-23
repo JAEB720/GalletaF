@@ -165,6 +165,13 @@ box-shadow: #2196f3 0px 0px 7px ;
 
 
 
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   body {
   
@@ -211,13 +218,13 @@ box-shadow: #2196f3 0px 0px 7px ;
   
   
   li {
-    font-size: 0.7em;
+    font-size: 1em;
     /* background-color: #535bf2; */
     padding-top: 1rem;
     /* overflow: hidden; */
     
     margin: 0.1rem;
-    height: 10rem;
+    height: 12rem;
     overflow: auto;
   
     
@@ -236,10 +243,10 @@ box-shadow: #2196f3 0px 0px 7px ;
 
 .paperCookie{
   background-color: #49c767;
-  margin-left: 20%;
-  margin-right:20%;
+  margin-left: 1rem;
+  margin-right:1rem;
   margin-top: 5rem;
- height: 13rem;
+ height: 15rem;
  border-radius: 10px;
  background: linear-gradient(rgba(38, 98, 250, 0.35), rgba(5, 7, 12, 0.35));
  box-shadow: #2196f3 0px 0px 7px ;
