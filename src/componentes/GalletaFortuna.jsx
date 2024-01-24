@@ -6,9 +6,7 @@ const GalletaFortuna = ({FortunaData}) => {
         <div className="Galleta-Fortuna">
         <h1>Esta es tu Fortuna!</h1>
         <h2>
-            <div className="paperCookie">
-                
-                <li>
+            <div className="paperCookie"><li>
             <i className="GALLETA"></i> 
             Fortuna: {FortunaData.phrase}</li>
             </div> 

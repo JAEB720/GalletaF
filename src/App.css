@@ -169,6 +169,21 @@ box-shadow: #2196f3 0px 0px 7px ;
 
 
 
+@media (max-width: 768px){
+
+
+
+  .paperCookie{
+    /* background-color: #49c767; */
+   
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+   
+   }
+
+}
 
 
 
@@ -177,7 +192,7 @@ box-shadow: #2196f3 0px 0px 7px ;
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   body {
   
   
@@ -209,10 +224,7 @@ box-shadow: #2196f3 0px 0px 7px ;
       box-shadow: #2196f3 0px 1px 0px 0px ;
     }
     
-    /* h2{
-      width: 100%;
-    } */
-    
+ 
     h3{
       margin:1rem;
       font-size: 1em;
@@ -258,18 +270,20 @@ box-shadow: #2196f3 0px 0px 7px ;
     
      
       text-align:center;
+      text-justify:distribute-all-lines;
     
-      font-size: 1rem;
+      font-size: 0.70em;
       /* padding-left: 1.5rem; */
       /* padding-right: 1rem; */ 
       /* margin: 0.5rem; */
-      /* padding: 1.5rem; */
+      padding-left: 0.4rem;
+      padding-right: 0.4rem;
       height: 10rem; 
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
       /* padding-top: 2.5rem; */
     }
-    
+ 
     
     
     .paperCookie{
@@ -293,7 +307,13 @@ box-shadow: #2196f3 0px 0px 7px ;
     box-shadow: #2196f3 0px 0px 7px ;
     
     }
-  
+    .author{
+     
+    
+      margin:0.1;
+   
+    
+    }
   
     }
  
