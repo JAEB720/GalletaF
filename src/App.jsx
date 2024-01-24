@@ -18,12 +18,13 @@ function App() {
       <div className="content">
         <GalletaFortuna FortunaData={Phrases[index]} />
         <button onClick={cambiarFondoAleatorio}>Cual es mi fortuna</button>
-      </div>
-      <Fondos fondoIndex={index} cambiarFondoAleatorio={cambiarFondoAleatorio} />
-      <p class="author">
+        <p class="author">
       🦊 Hecho por
         <a href="https://github.com/JAEB720" target='_blank'> JAEB720</a>
       </p>
+      </div>
+      <Fondos fondoIndex={index} cambiarFondoAleatorio={cambiarFondoAleatorio} />
+   
     </div>
   );
 }
